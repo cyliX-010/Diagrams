@@ -10,7 +10,10 @@
 				<label id = "text1" style = "position: absolute;top: 20px; left:550px;text-align: center; font-size: 20px; display: none;">CLASS DIAGRAM</label>
 			</div>
 			<div class = "imageBase" style="position:absolute; top: 90px; left: 190px; height:550px; width: 980px;">
-				<img src="usecase.png" width="100%" height="100%">
+				<img  id = "usecase" src="usecase.png" width="100%" height="100%">
+				<img  id = "class1" src="class1.png" width="100%" height="100%" style="display:none;">
+				<img id = "class2" src="class2.png" width="100%" height="100%" style="display:none;">
+				<img id = "class3" src="class3.png" width="100%" height="100%" style="display:none;">
 			</div>
 		<a id = "prev" href="" style="position:absolute; height:50px; left:30px; width: 150px; bottom: 20px; background-color: white; text-decoration:none; font-size:10px;color: black; text-indent:5%; ">Previous Photo</a>
 		<a id = "next" href="" style="position:absolute; height:50px; right:30px; width: 150px; bottom: 20px; background-color: white; text-decoration:none; font-size:10px;color: black; text-indent:5%; ">Next Photo</a>
@@ -20,8 +23,9 @@
 <script>
 	$("#next").click(function(){
 		document.getElementById(text).style.display="none";
-		document.getElementById(text1).style.display="display";
-		
+		document.getElementById(text1).style.display="block";
+		document.getElementById(usecase).style.display="none";
+		document.getElementById(class1).style.display="block";
 	});
 	
 </script>
