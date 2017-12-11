@@ -9,7 +9,7 @@
 				<label id = "text" style = "position: absolute;top: 20px; left:20px;text-align: center; font-size: 15px; color: white;">BONGCO, JERZAMAE BSIT 3 PM</label>
 				<label id = "text1" style = "position: absolute;top: 20px; left:550px;text-align: center; font-size: 20px; display: none;">CLASS DIAGRAM</label>
 			</div>
-			<img id = "logo" src ="Capture.jpeg" width="50%" height="70%" style="position:absolute; top: 130px; left: 320px;">
+			
 			<iframe  name = "iframe" class = "imageBase" style="position:absolute; top: 90px; left: 190px; height:550px; width: 980px; border:none;">
 			
 			</iframe>
